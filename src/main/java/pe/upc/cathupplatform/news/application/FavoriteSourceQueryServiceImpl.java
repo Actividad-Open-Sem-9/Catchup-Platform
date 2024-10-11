@@ -7,7 +7,7 @@ import pe.upc.cathupplatform.news.domain.services.FavoriteSourceQueryService;
 
 import java.util.Optional;
 
-public class FavoriteSourceQueryServiceImpl implements FavoriteSourceQueryService {
+public class FavoriteSourceQueryServiceImpl implements FavoriteSourceQueryService  {
     @Override
     public Optional<FavoriteSource> handle(GetAllFavoriteSourceQuery query) {
         return Optional.empty();
